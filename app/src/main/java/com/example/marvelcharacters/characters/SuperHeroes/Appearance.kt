@@ -12,4 +12,6 @@ data class Appearance(
     val eyeColor: String,
     @SerializedName("hairColor")
     val hairColor: String,
+    @SerializedName("height")
+    val height: List<String>,
 )

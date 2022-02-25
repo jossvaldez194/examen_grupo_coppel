@@ -24,4 +24,9 @@
     <style name="Theme.MarvelCharacters.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 
+    <style name="Theme.MySplash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/marvel_dc</item>
+        <item name="postSplashScreenTheme">@style/Theme.MarvelCharacters</item>
+    </style>
 </resources>

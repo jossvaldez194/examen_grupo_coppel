@@ -60,8 +60,8 @@ class SecondFragment : Fragment() {
                                 requiredSize = true
                             )
                             binding.txtHeigth.text = textSpan(
-                                title = "Ojos:\n",
-                                value = data.appearance.eyeColor,
+                                title = "Altura:\n",
+                                value = data.appearance.height[1],
                                 requiredSize = true
                             )
 
